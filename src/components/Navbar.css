@@ -1,0 +1,20 @@
+#div-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    border: rgb(187, 186, 186) solid 1px;
+    border-radius: 2em;
+}
+
+li{
+    text-decoration: none;
+    margin-right: 2rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
