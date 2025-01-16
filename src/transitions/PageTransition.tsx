@@ -5,14 +5,26 @@ interface PageTransitionProps {
     component: ReactNode
 }
 
+const animations = {
+    hidden: {
+        opacity: 0
+    },
+    animate: {
+        opacity: 1,
+    },
+    exit: {
+        opacity: 0
+    }
+}
+
 function PageTransition (children: PageTransitionProps) {
     return ( 
         <motion.div
             className='page-slide'
-            initial={{ width: 0 }}
-            animate={{ width: '100%' }}
-            exit={{ x: window.innerWidth }}
-            transition={{ duration: 1 }}
+            variants={animations}
+            initial='hidden'
+            animate='animate'
+            exit='exit'
         >
             { children.component }
         </motion.div>
