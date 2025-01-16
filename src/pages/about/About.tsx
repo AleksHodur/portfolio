@@ -4,7 +4,7 @@ import {Container, Row, Col, Card} from 'react-bootstrap';
 
 function About () {
     return ( 
-        <Card id='intro'>
+      <Card id='intro'>
         <Card.Body>
           <Container>
             <Row className='row-class'>
