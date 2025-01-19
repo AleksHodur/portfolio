@@ -15,11 +15,17 @@ body{
   border: solid 1px lightgray;
   border-radius: 3px;
   min-height: 80%;
+  display: flex;
+}
+
+.box > div{
+  display: flex;
 }
 
 .box-body{
   width: 100%;
   display: flex;
+  align-items: center;
 }
 
 .box-column{

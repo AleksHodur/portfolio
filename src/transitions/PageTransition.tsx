@@ -7,10 +7,12 @@ interface PageTransitionProps {
 
 const animations = {
     hidden: {
-        opacity: 0
+        opacity: 0,
+        display: 'none'
     },
     animate: {
         opacity: 1,
+        display: 'flex',
         transition : {delay: 0.5, duration: 1}
     },
     exit: {
