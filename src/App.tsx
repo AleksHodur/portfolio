@@ -12,7 +12,9 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
 
-        <AnimatedRoutes />
+        <div className="box">
+          <AnimatedRoutes />
+        </div>
 
       </BrowserRouter>
     </div>

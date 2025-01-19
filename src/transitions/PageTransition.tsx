@@ -11,6 +11,7 @@ const animations = {
     },
     animate: {
         opacity: 1,
+        transition : {delay: 0.5, duration: 1}
     },
     exit: {
         opacity: 0

@@ -1,9 +1,29 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
 body{
   margin: 2em;
 }
 
-.App{
+#root, .App{
+  height: 100%;
+}
+
+.box{
+  border: solid 1px lightgray;
+  border-radius: 3px;
+  min-height: 80%;
+}
+
+.box-body{
+  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction:column;
+}
+
+.box-column{
+  margin: 2vw;
+  width: 50%;
+  text-align: center;
 }
