@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div id='div-navbar'>
+        <div id='div-navbar' className='offside-regular'>
             <ul id='navbar'>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/about'>About</Link></li>

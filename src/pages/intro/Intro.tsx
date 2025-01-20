@@ -18,7 +18,7 @@ function Intro () {
             </div>
           </div>
           <div className="box-column">
-            <h1>Some image here</h1>
+            <h1>Hi! I'm Aleks</h1>
           </div>
         </div>
      );
